@@ -43,6 +43,7 @@ button {
     -moz-border-radius: 8px;
     border-radius: 8px;
     background: #DD5555;
+    border: none;
 }
 button a {
     color: white;
@@ -62,7 +63,6 @@ main {
 }
 section img {
     width: 120px;
-    float:left;
     margin-right: 20px;
 }
 h1 {
