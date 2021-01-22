@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ebebeb;
+    text-align: center;
+    padding: 30px 0px;
+    color: #7D7D81;
+}
+header {
+    width: 500px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding: 30px 30px 15px 30px;
+    background-color: white;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+header img {
+    overflow:hidden;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+    border-radius:75px;
+    width:150px;
+    height:150px;
+    border: 3px solid #ebebeb;
+}
+nav {
+    width: 500px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding: 30px 30px 15px 30px;
+    background-color: white;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+button {
+    padding: 10px;
+    text-align: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: #DD5555;
+}
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+main {
+    width: 500px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding: 30px 30px 15px 30px;
+    background-color: white;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+section img {
+    width: 120px;
+    float:left;
+    margin-right: 20px;
+}
+h1 {
+    font-weight: 800;
+    color:#DD5555;
+    margin: 20px;
+    margin-top: 0px;
+}
+main h1 {
+    color:#7D7D81;
+}
+main h1 span {
+    background-color:#ebebeb;
+}
+h2 {
+    margin: 20px;
+}
+p {
+    text-align: justify;
+}
+ul {
+    display: inline;
+}
+ul li i{
+    text-align: center;
+    justify-content: space-around;
+}
+ul li{
+    list-style-type: none;
+}
+.picto {
+    padding-top: 10px;
+    color: #ebebeb;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt-picto {
+    color: #ebebeb;
+    display: flex;
+    justify-content: space-around;
+}
