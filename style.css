@@ -62,7 +62,8 @@ main {
 }
 section img {
     width: 120px;
-    text-align: left;
+    float:left;
+    margin-right: 20px;
 }
 h1 {
     font-weight: 800;
@@ -73,6 +74,9 @@ h1 {
 main h1 {
     color:#7D7D81;
 }
+main h1 span {
+    background-color:#ebebeb;
+}
 h2 {
     margin: 20px;
 }
@@ -81,4 +85,24 @@ p {
 }
 ul {
     display: inline;
+}
+ul li i{
+    text-align: center;
+    justify-content: space-around;
+}
+ul li{
+    list-style-type: none;
+}
+.picto {
+    padding-top: 10px;
+    color: #ebebeb;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt-picto {
+    color: #ebebeb;
+    display: flex;
+    justify-content: space-around;
 }
