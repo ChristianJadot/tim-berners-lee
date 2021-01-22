@@ -43,6 +43,7 @@ button {
     -moz-border-radius: 8px;
     border-radius: 8px;
     background: #DD5555;
+    border: none;
 }
 button a {
     color: white;
